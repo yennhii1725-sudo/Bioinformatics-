@@ -19,7 +19,7 @@ This environment is used for raw data trimming and quality assessment.
 Tools: fastp, fastqc
 ### Installation:
 ```
-conda create -n QC fastp fastqc -y
+conda create -n env_qc -c bioconda -c conda-forge fastqc fastp -y
 ```
 ### Verification:
 Activate the environment and check the versions:
@@ -37,7 +37,7 @@ Contains tools for de novo assembly and evaluating the completeness of your resu
 Tools: Spades, Busco, Quast
 ### Installation:
 ```
-conda create -n Assembly spades busco quast -y
+conda create -n env_assembly -c bioconda -c conda-forge spades busco quast -y
 ```
 Verification:
 ```
