@@ -28,9 +28,6 @@ conda activate env_qc
 fastp --version
 fastqc --version
 ```
-```
-conda deactivate
-```
 
 ## Step 2: Genome Assembly
 Contains tools for de novo assembly and evaluating the completeness of your results.
