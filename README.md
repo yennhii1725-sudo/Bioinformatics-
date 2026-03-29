@@ -51,6 +51,7 @@ These tools identify antibiotic resistance and virulence factors. It is recommen
 ```
 conda create -n env_rgi -c bioconda -c conda-forge rgi -y
 ```
+#### Verification:
 ```
 conda activate env_rgi
 rgi main --version
